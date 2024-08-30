@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <h1>Login Form</h1>
+    
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Username" required>
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password" required>
+        <br />
+        <label for="checkbox">
+            <input type="checkbox" id="checkbox"> Remember me
+        </label>
+        <br />
+        <input type="submit" id="submit" value="Submit">
+    </form>
+    
+    <!-- This button will be dynamically created by JavaScript if needed -->
+    
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
